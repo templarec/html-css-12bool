@@ -1,19 +1,25 @@
+/* FRAMEWORK per layout in colonne*/
+/* proprietà star */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* clearfix */
 .row::after {
   display: table;
   content: "";
   clear: both;
 }
+/* float delle colonne */
 [class^="col-"] {
   float: left;
 }
+/* centratura container */
 .container {
   margin: 0 auto;
 }
+/* dimensioni colonne */
 .col-1 {
   width: calc(100% / 12);
 }

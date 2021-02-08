@@ -2,23 +2,26 @@
   font-family: 'Arial';
   font-size: 18px;
 }
+/* size e sfondo del container */
 .container {
   max-width: 1170px;
+  background-color: #FFC0CB;
 }
+/* bordi */
 .debug .container, .debug .container .row [class^="col-"] {
   border: 1px solid black;
 }
+/* altezze di debug */
 .debug .container .row [class^="col-"] {
  height: 170px;
  line-height: 170px;
  text-align: center;
 }
-.container {
-  background-color: #FFC0CB;
-}
+/* padding ultima riga (5) */
 .debug .row:nth-child(5) > div {
   padding: 0 8px;
 }
+/* proprietà colonne annidate */
 .debug .row .row [class^="col-"] {
   height: 150px;
   margin: 8px 0;
