@@ -1,0 +1,27 @@
+* {
+  font-family: 'Arial';
+  font-size: 18px;
+}
+.container {
+  max-width: 1170px;
+}
+.debug .container, .debug .container .row [class^="col-"] {
+  border: 1px solid black;
+}
+.debug .container .row [class^="col-"] {
+ height: 170px;
+ line-height: 170px;
+ text-align: center;
+}
+.container {
+  background-color: #FFC0CB;
+}
+.debug .row:nth-child(5) > div {
+  padding: 0 8px;
+}
+.debug .row .row [class^="col-"] {
+  height: 150px;
+  margin: 8px 0;
+  border: 1px solid white;
+  background-color: #F07F80;
+}
